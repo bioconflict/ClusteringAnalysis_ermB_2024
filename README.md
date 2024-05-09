@@ -6,6 +6,9 @@ Yongjun Tan, Alexandre Le Scornet, Mee-Ngan Frances Yap, Dapeng Zhang
 
 This repository is to store the data and source code for the manuscript entitled "Machine learning-based classification reveals distinct clusters of non-coding genomic allelic variations associated with Erm-mediated antibiotic resistance".
 
+Please cite the paper:
+Tan Y, Scornet AL, Yap M-NF, Zhang D. Machine learning classification reveals distinct clusters of non-coding genomic allelic variations associated with antibiotic resistance. (In preparation)
+
 The repository consists of two main parts.
 
 Part One: Allele frequency calculation
@@ -23,3 +26,7 @@ Part Three: Entropy calculation
    This file is the output file of ermB_clustering.py. We included cluster assignment results for 21,525 sequences from a series of trials with cluster numbers ranging from 20 to 100. The first row denotes each trial with a different cluster number, spanning from 20 to 100. The subsequent rows display the cluster assignments for each sequence, maintaining the same order as in the input file.
 5. ermB_clustering.py
    This file is the Python3 scripts to conduct clustering analysis for the 1-211 region of upstream of the ermB. Input file is ermB.align_1-211.list, output file is kmeans_211.csv. In this analysis, we explored the optimal number of clusters for the K-means algorithm by conducting a series of trials with cluster numbers ranging from 20 to 100. All results are saved in the output file for subsequent analysis.
+
+
+Comments, suggestions and bug reports to: yongjun.tan@slu.edu
+
