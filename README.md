@@ -11,7 +11,7 @@ Tan Y, Scornet AL, Yap M-NF, Zhang D. Machine learning classification reveals di
 
 The repository consists of two main parts.
 
-Part One: Allele frequency calculation
+Part One: Genome-wide analysis and allele frequency calculation
 1. ermB.align.list
    This file is the input file of ermB_frequency.py and contains a multiple sequence alignment (MSA) with a total of 21,525 sequences used in this study. The MSA was generated using BLASTN (output format 1).
 2. ermB.align.table
@@ -19,9 +19,9 @@ Part One: Allele frequency calculation
 4. ermB_frequency.py
    This file is the Python3 scripts to calculate allele frequency. Input file is ermB.align.list, and output file is ermB.align.table.
 
-Part Three: Entropy calculation
+Part Two: ML clustering analysis
 1. ermB.align_1-211.list
-   This file is the input file of ermB_clustering.py. This file was manually extracted from ermB.align.list. Because, we specifically focus on investigating the 1-211 region of upstream of the ermB.
+   This file is the input file of ermB_clustering.py. This file was extracted from ermB.align.list. The alignment contains the 1-211 positions of the upstream region of ermB.
 2. kmeans_211.csv
    This file is the output file of ermB_clustering.py. We included cluster assignment results for 21,525 sequences from a series of trials with cluster numbers ranging from 20 to 100. The first row denotes each trial with a different cluster number, spanning from 20 to 100. The subsequent rows display the cluster assignments for each sequence, maintaining the same order as in the input file.
 5. ermB_clustering.py
