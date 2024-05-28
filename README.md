@@ -7,7 +7,7 @@ Yongjun Tan, Alexandre Le Scornet, Mee-Ngan Frances Yap, Dapeng Zhang
 This repository is to store the data and source code for the manuscript entitled "Machine learning-based classification reveals distinct clusters of non-coding genomic allelic variations associated with Erm-mediated antibiotic resistance".
 
 Please cite the paper:
-Tan Y, Scornet AL, Yap M-NF, Zhang D. Machine learning classification reveals distinct clusters of non-coding genomic allelic variations associated with antibiotic resistance. (In preparation)
+Tan Y, Scornet AL, Yap M-NF, Zhang D. Machine learning-based classification reveals distinct clusters of non-coding genomic allelic variations associated with Erm-mediated antibiotic resistance. mSystems, under review.
 
 The repository consists of two main parts.
 
